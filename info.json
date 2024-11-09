@@ -1,0 +1,9 @@
+{
+    "name": "More-Asteroid-Resources",
+    "version": "1.0.0",
+    "title": "More Asteroid Resources",
+    "author": "thelordodin",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "space-age >= 1.0"],
+    "description": "This mod adds [item=stone] and [item=uranium-ore] to asteroid crushing recipies. Very configurable."
+}
