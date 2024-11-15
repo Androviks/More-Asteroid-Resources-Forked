@@ -50,7 +50,7 @@ data:extend({
             {type = "item", name = "iron-ore", amount = 20},
             {type = "item", name = "copper-ore", amount = 3},
             {type = "item", name = "holmium-ore", amount = 3, probability = 0.3},
-            {type = "item", name = "tungsten-ore", amount = 3, probability = 0.1}
+            {type = "item", name = "tungsten-ore", amount = 1, probability = 0.1}
         },
         enabled = false
     }
@@ -89,8 +89,8 @@ data:extend({
         results = {
             {type = "item", name = "ice", amount = 20},
             {type = "item", name = "calcite", amount = 8},
-            {type = "item", name = "stone", amount = 5, probability = 0.3},
-            {type = "item", name = "lithium", amount = 1, probability = 0.1}
+            {type = "item", name = "stone", amount = 5, probability = 0.5},
+            {type = "item", name = "lithium", amount = 3, probability = 0.3}
         },
         enabled = false
     }
