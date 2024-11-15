@@ -1,7 +1,7 @@
 
 # More Asteroid Resources, Forked
 
-This project aims to add stone and uranium to certain processing recipes, allowing the user to add them to the current processing recipes, or add them as new recipes altogether.
+This project aims to add stone and uranium to asteroid processing recipes, allowing the user to add them to the current processing recipes, or add them as new recipes altogether.
 
 Currently, the default will be to add a research and new recipes that increase yield and output of asteroid processing, requiring two chunks instead of the one.
 
