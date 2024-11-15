@@ -50,6 +50,14 @@ data:extend({
 			{type = "item", name = "holmium-ore", amount = 3, probability = 0.3},
 			{type = "item", name = "tungsten-ore", amount = 1, probability = 0.1}
 		},
+		icon_size = 64,
+        	icons = {
+            		{icon = "__base__/graphics/icons/metallic-asteroid-crushing.png", icon_size = 64},
+            		{icon = "__base__/graphics/icons/metallic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
+            		{icon = "__base__/graphics/icons/metallic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
+            		{icon = "__base__/graphics/icons/holmium-ore.png", icon_size = 16, scale = 1, shift = {-16, -16}},
+            		{icon = "__base__/graphics/icons/tungsten-ore.png", icon_size = 16, scale = 1, shift = {16, -16}},
+        	},
 		enabled = false
 	}
 })
@@ -68,6 +76,14 @@ data:extend({
 			{type = "item", name = "stone", amount = 5, probability = 0.5},
 			{type = "item", name = "uranium-ore", amount = 3, probability = 0.3}
 		},
+		icon_size = 64,
+        	icons = {
+            		{icon = "__base__/graphics/icons/carbonic-asteroid-crushing.png", icon_size = 64},
+            		{icon = "__base__/graphics/icons/carbonic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
+            		{icon = "__base__/graphics/icons/carbonic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
+            		{icon = "__base__/graphics/icons/stone.png", icon_size = 16, scale = 1, shift = {-16, -16}},
+            		{icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 16, scale = 1, shift = {16, -16}},
+        	},
 		enabled = false
 	}
 })
@@ -86,6 +102,14 @@ data:extend({
 			{type = "item", name = "stone", amount = 5, probability = 0.5},
 			{type = "item", name = "lithium", amount = 3, probability = 0.3}
 		},
+		icon_size = 64,
+        	icons = {
+            		{icon = "__base__/graphics/icons/oxide-asteroid-crushing.png", icon_size = 64},
+            		{icon = "__base__/graphics/icons/oxide-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
+            		{icon = "__base__/graphics/icons/oxide-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
+            		{icon = "__base__/graphics/icons/stone.png", icon_size = 16, scale = 1, shift = {-16, -16}},
+            		{icon = "__base__/graphics/icons/lithium.png", icon_size = 16, scale = 1, shift = {16, -16}},
+        	},
 		enabled = false
 	}
 })
@@ -94,6 +118,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-metallic-processing",
+		icon = "__MARF__/graphics/technology/trace-metallic-processing.png"
 		prerequisites = {"advanced-asteroid-processing", "holmium-processing", "tungsten-carbide"},
 		unit = {
 			count = 3000,
@@ -110,6 +135,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-carbonic-processing",
+		icon = "__MARF__/graphics/technology/trace-carbonic-processing.png"
 		prerequisites = {"advanced-asteroid-processing", "nuclear-power"},
 		unit = {
 			count = 3000,
@@ -126,6 +152,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-oxide-processing",
+		icon = "__MARF__/graphics/technology/trace-oxide-processing.png"
 		prerequisites = {"advanced-asteroid-processing", "lithium-processing"},
 		unit = {
 			count = 3000,
