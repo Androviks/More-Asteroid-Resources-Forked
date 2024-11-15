@@ -17,3 +17,6 @@ tables.target_items = {
         {item = "lithium", default_probability = {[""] = 0.001, ["advanced-"] = 0.01}}
     },
 }
+tables.prefixes = {"", "advanced-"}
+
+return tables
