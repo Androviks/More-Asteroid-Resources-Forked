@@ -2,7 +2,7 @@
 
 local tables = {}
 
-tables.asteroids = {"metallic", "carbonic", "oxide"}
+tables.asteroid = {"metallic", "carbonic", "oxide"}
 tables.target_items = {
     metallic = {
         {item = "holmium-ore", default_probability = {[""] = 0.03, ["advanced-"] = 0.1}}.
