@@ -14,6 +14,6 @@ tables.target_items = {
     },
     oxide = {
         {item = "stone", default_probability = {[""] = 0.03, ["advanced-"] = 0.1}},
-        {item = "iron-ore", default_probability = {[""] = 0.001, ["advanced-"] = 0.01}}
+        {item = "lithium", default_probability = {[""] = 0.001, ["advanced-"] = 0.01}}
     },
 }
