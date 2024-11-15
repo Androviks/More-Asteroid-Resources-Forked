@@ -34,7 +34,7 @@ for _, asteroid in ipairs(tables.asteroids) do
             data:extend({
                 {
                     type = "double-setting",
-                    name = prefix .. target_item.item .. asteroid .."-probability",
+                    name = prefix .. target_item.item .. "-probability-" .. asteroid,
                     setting_type = "startup",
                     default_value = target_item.default_probability[prefix],
                     minimum_value = 0.0,
