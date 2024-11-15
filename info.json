@@ -5,5 +5,5 @@
     "author": "Androviks",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0", "space-age >= 1.0"],
-    "description": "This mod adds [item=stone] and [item=uranium-ore] astroid processing recipes, configurable options to change functionality."
+    "description": "This mod adds new asteroid processing recipes, configurable options to change functionality."
 }
