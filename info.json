@@ -1,9 +1,9 @@
 {
-    "name": "More-Asteroid-Resources",
+    "name": "More-Asteroid-Resources-Forked",
     "version": "1.0.0",
-    "title": "More Asteroid Resources",
-    "author": "thelordodin",
+    "title": "More Asteroid Resources, Forked",
+    "author": "Androviks",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0", "space-age >= 1.0"],
-    "description": "This mod adds [item=stone] and [item=uranium-ore] to asteroid crushing recipies. Very configurable."
+    "description": "This mod adds [item=stone] and [item=uranium-ore] astroid processing recipes, configurable options to change functionality."
 }
