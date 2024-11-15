@@ -17,8 +17,8 @@ data:extend({
     }
 })
 
-for _, target_item in ipairs(tables.target_items) do
-    for _, asteroid in ipairs(tables.asteroids) do
+for _, asteroid in ipairs(tables.asteroids) do
+    for _, target_item in ipairs(tables.target_items[asteroid]) do
         data:extend({
             {
                 type = "int-setting",
@@ -30,18 +30,18 @@ for _, target_item in ipairs(tables.target_items) do
                 order = "b-" .. target_item.item .. "-" .. asteroid
             }
         })
-    end
-    for _, prefix in ipairs(tables.prefixes) do
-        data:extend({
-            {
-                type = "double-setting",
-                name = prefix .. target_item.item .. "-probability",
-                setting_type = "startup",
-                default_value = target_item.default_probability[prefix],
-                minimum_value = 0.0,
-                maximum_value = 1.0,
-                order = "c-" .. prefix .. target_item.item
-            }
-        })
+        for _, prefix in ipairs(tables.prefixes) do
+            data:extend({
+                {
+                    type = "double-setting",
+                    name = prefix .. target_item.item .. "-probability",
+                    setting_type = "startup",
+                    default_value = target_item.default_probability[prefix],
+                    minimum_value = 0.0,
+                    maximum_value = 1.0,
+                    order = "c-" .. prefix .. target_item.item
+                }
+            })
+        end
     end
 end
