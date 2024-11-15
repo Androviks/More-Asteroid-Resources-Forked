@@ -4,12 +4,17 @@ local tables = require("tables")
 
 data:extend({
     {
-        type = "bool-setting",
-        name = "only-advanced-recipes",
+        type = "string-setting",
+        name = "processing-mode",
         setting_type = "startup",
-        default_value = false,
+        default_value = "standalone-only",
+        allowed_values = {
+            "standalone-only",
+            "advanced-only",
+            "all"
+        },
         order = "a"
-    },
+    }
 })
 
 for _, target_item in ipairs(tables.target_items) do
