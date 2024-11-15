@@ -13,7 +13,7 @@ if settings.startup["processing-mode"].value ~= "standalone-only" then
                             type = "item",
                             name = target_item.item,
                             amount = settings.startup[target_item.item .. "-amount-" .. asteroid].value,
-                            probability = settings.startup["advanced-" .. target_item.item .. asteroid .. "-probability"].value
+                            probability = settings.startup["advanced-" .. target_item.item .. "-probability-" .. asteroid].value
                         })
                     end
                 end
@@ -29,7 +29,7 @@ if settings.startup["processing-mode"].value ~= "standalone-only" then
                         type = "item",
                         name = target_item.item,
                         amount = settings.startup[target_item.item .. "-amount-" .. asteroid].value,
-                        probability = settings.startup[target_item.item .. asteroid .. "-probability"].value
+                        probability = settings.startup[target_item.item .. "-probability-" .. asteroid].value
                     })
                 end
             end
