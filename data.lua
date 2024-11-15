@@ -40,7 +40,11 @@ data:extend({
 	{
 		type = "recipe",
 		name = "trace-metallic-crushing",
+		group = "space",
+		subgroup = "space-crushing",
 		category = "crushing",
+		order = "g-a",
+		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "metallic-asteroid-chunk", amount = 3},
 		},
@@ -52,11 +56,9 @@ data:extend({
 		},
 		icon_size = 64,
         	icons = {
-            		{icon = "__base__/graphics/icons/metallic-asteroid-crushing.png", icon_size = 64},
-            		{icon = "__base__/graphics/icons/metallic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
-            		{icon = "__base__/graphics/icons/metallic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
-            		{icon = "__base__/graphics/icons/holmium-ore.png", icon_size = 16, scale = 1, shift = {-16, -16}},
-            		{icon = "__base__/graphics/icons/tungsten-ore.png", icon_size = 16, scale = 1, shift = {16, -16}},
+            		{icon = "__space-age__/graphics/icons/advanced-metallic-asteroid-crushing.png", icon_size = 64, scale = 1},
+            		{icon = "__space-age__/graphics/icons/holmium-ore.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
+            		{icon = "__space-age__/graphics/icons/tungsten-ore.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
         	},
 		enabled = false
 	}
@@ -66,7 +68,11 @@ data:extend({
 	{
 		type = "recipe",
 		name = "trace-carbonic-crushing",
+		group = "space",
+		subgroup = "space-crushing",
 		category = "crushing",
+		order = "g-b",
+		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "carbonic-asteroid-chunk", amount = 3},
 		},
@@ -78,11 +84,9 @@ data:extend({
 		},
 		icon_size = 64,
         	icons = {
-            		{icon = "__base__/graphics/icons/carbonic-asteroid-crushing.png", icon_size = 64},
-            		{icon = "__base__/graphics/icons/carbonic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
-            		{icon = "__base__/graphics/icons/carbonic-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
-            		{icon = "__base__/graphics/icons/stone.png", icon_size = 16, scale = 1, shift = {-16, -16}},
-            		{icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 16, scale = 1, shift = {16, -16}},
+            		{icon = "__space-age__/graphics/icons/advanced-carbonic-asteroid-crushing.png", icon_size = 64, scale = 1},
+            		{icon = "__base__/graphics/icons/stone.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
+            		{icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
         	},
 		enabled = false
 	}
@@ -92,7 +96,11 @@ data:extend({
 	{
 		type = "recipe",
 		name = "trace-oxide-crushing",
+		group = "space",
+		subgroup = "space-crushing",
 		category = "crushing",
+		order = "g-c",
+		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "oxide-asteroid-chunk", amount = 3},
 		},
@@ -104,11 +112,9 @@ data:extend({
 		},
 		icon_size = 64,
         	icons = {
-            		{icon = "__base__/graphics/icons/oxide-asteroid-crushing.png", icon_size = 64},
-            		{icon = "__base__/graphics/icons/oxide-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {-16, 16}},
-            		{icon = "__base__/graphics/icons/oxide-asteroid-chunk.png", icon_size = 16, scale = 1, shift = {16, 16}},
-            		{icon = "__base__/graphics/icons/stone.png", icon_size = 16, scale = 1, shift = {-16, -16}},
-            		{icon = "__base__/graphics/icons/lithium.png", icon_size = 16, scale = 1, shift = {16, -16}},
+            		{icon = "__space-age__/graphics/icons/advanced-oxide-asteroid-crushing.png", icon_size = 64, scale = 1},
+            		{icon = "__base__/graphics/icons/stone.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
+            		{icon = "__space-age__/graphics/icons/lithium.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
         	},
 		enabled = false
 	}
@@ -118,7 +124,8 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-metallic-processing",
-		icon = "__MARF__/graphics/technology/trace-metallic-processing.png"
+		icon_size = 256,
+		icon = "__More-Asteroid-Resources-Forked__/graphics/technology/trace-metallic-processing.png",
 		prerequisites = {"advanced-asteroid-processing", "holmium-processing", "tungsten-carbide"},
 		unit = {
 			count = 3000,
@@ -135,7 +142,8 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-carbonic-processing",
-		icon = "__MARF__/graphics/technology/trace-carbonic-processing.png"
+		icon_size = 256,
+		icon = "__More-Asteroid-Resources-Forked__/graphics/technology/trace-carbonic-processing.png",
 		prerequisites = {"advanced-asteroid-processing", "nuclear-power"},
 		unit = {
 			count = 3000,
@@ -152,7 +160,8 @@ data:extend({
 	{
 		type = "technology",
 		name = "trace-oxide-processing",
-		icon = "__MARF__/graphics/technology/trace-oxide-processing.png"
+		icon_size = 256,
+		icon = "__More-Asteroid-Resources-Forked__/graphics/technology/trace-oxide-processing.png",
 		prerequisites = {"advanced-asteroid-processing", "lithium-processing"},
 		unit = {
 			count = 3000,
