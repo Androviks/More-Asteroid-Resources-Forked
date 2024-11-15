@@ -4,9 +4,9 @@ local tables = {}
 
 tables.asteroids = {"metallic", "carbonic", "oxide"}
 tables.target_items = {
-    {item = "stone", default_probability = {[""] = 0.05, ["advanced-"] = 0.3}},
-    {item = "uranium-ore", default_probability = {[""] = 0.001, ["advanced-"] = 0.01}}
+    {item = "stone", default_probability = {[""] = 0.05, ["advanced-"] = 0.3, ["standalone-"] = 0.5}},
+    {item = "uranium-ore", default_probability = {[""] = 0.001, ["advanced-"] = 0.01, ["standalone-"] = 0.1}}
 }
-tables.prefixes = {"", "advanced-"}
+tables.prefixes = {"", "advanced-", "standalone-"}
 
 return tables
