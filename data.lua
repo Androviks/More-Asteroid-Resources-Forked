@@ -139,7 +139,8 @@ data:extend({
 		order = "z-a",
 		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "metallic-asteroid-chunk", amount = 2}
+			{type = "item", name = "metallic-asteroid-chunk", amount = 2},
+			{type = "item", name = "promethium-asteroid-chunk", amount = 1}
 		},
 		results = {
 			{type = "fluid", name = "lava", amount = 400},
@@ -187,7 +188,8 @@ data:extend({
 		order = "z-c",
 		energy_required = 10,
 		ingredients = {
-			{type = "item", name = "oxide-asteroid-chunk", amount = 3},
+			{type = "item", name = "oxide-asteroid-chunk", amount = 2},
+			{type = "item", name = "promethium-asteroid-chunk", amount = 1}
 		},
 		results = {
 			{type = "fluid", name = "ammoniacal-solution", amount = 80},
