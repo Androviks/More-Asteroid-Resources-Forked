@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2024-11-15
+  Major Features:
+    - Recipe/tech for Promethium chunks and other asteroids, to obtain chemical compounds from them. Who knows what they're made of.
+      It comes after Promethium Science is unlocked and uses chunks directly in machines skipping crushers, for fluid outputs.
+    - Metallic chunks react with promethium to create lava instead of ore, tungsten, and holmium solution.
+      Found in the Foundry.
+    - Carbonic chunks react with promethium to create heavy oil, light oil, and petroleum gas,
+      in the inverse ratio that cracking crude does, as most light products would evaporate in space. Returns the loss as sulfur.
+      Found in the Oil refinery.
+    - Oxide chunks react with promethium to create ammoniacal solution, lithium brine, fluorine, and calcite.
+      Found in the Cryogenics plant.
+  Bugfixes:
+    - Correct Changelog.txt syntax, maybe? Hopefully. No indents here thanks.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2024-11-15
+  Locale:
+    - Add more clarity to localization for settings menu options.
+  Changes:
+    - Clarify mod description
+    - Make sure the original mod and this cannot be loaded together, to prevent issues
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024-11-15
+  Locale:
+    - Fix typo'd keys
+  Changes:
+    - Correct localization errors to ensure proper recipe and technology names display in-game.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2024-11-15
+  Changes:
+    - Correct old version of files to new versions due to a Git push/pull mistake.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024-11-14
+  Major Features:
+    - New recipes for each chunk entirely, providing more resources for less time per chunk but more time per cycle.
+  Minor Features:
+    - Make default behavior the stand-alone only
+    - Change the resources that you get
+  Changes:
+    - Initial fork from "More Asteroid Resources."

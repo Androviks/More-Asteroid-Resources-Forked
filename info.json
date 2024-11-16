@@ -1,9 +1,9 @@
 {
     "name": "More-Asteroid-Resources-Forked",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "title": "More Asteroid Resources, Forked",
     "author": "Androviks",
     "factorio_version": "2.0",
-    "dependencies": ["base >= 2.0", "space-age >= 1.0"],
-    "description": "This mod adds new asteroid processing recipes, configurable options to change functionality."
+    "dependencies": ["base >= 2.0", "space-age >= 1.0", "!More-Asteroid-Resources"],
+    "description": "This mod adds new asteroid processing recipes, configurable options to change functionality. Includes Stone and Uranium for carbonic asteroids, the easiest to reach, requiring Glebas advanced asteroid processing and nuclear power only. Metallic processing requires Holmium from Fulgora and Tungsten from Vulcanus to be unlocked. Oxide processing requires Lithium from Aquilo to be unlocked."
 }

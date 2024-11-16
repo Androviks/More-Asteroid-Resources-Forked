@@ -1,7 +1,7 @@
 
 # More Asteroid Resources, Forked
 
-This project aims to add stone, uranium, lithium, holmium, and tungsten to asteroid processing recipes, allowing the user to add them to the current processing recipes, or add them as new recipes altogether. The goal of this is to allow space platforms to become almost independent (Curse you Gleba. I'll make a way to make carbon fiber in space) from planets, with the end goal of my projects with Factorio Space Age to make a edge-of-system start on a platform, or something to that end.
+This project aims to add stone and uranium to asteroid processing recipes, allowing the user to add them to the current processing recipes, or add them as new recipes altogether.
 
 Currently, the default will be to add a research and new recipes that increase yield and output of asteroid processing, requiring two chunks instead of the one.
 
