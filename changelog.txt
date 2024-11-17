@@ -1,4 +1,21 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 2024-11-16
+  Changes:
+    - Added these crushing and processing recipes to the infinite productivity research.
+  Bugfixes:
+    - Corrected missing Promethium chunks from carbonic and oxide promethium recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2024-11-16
+  Bugfixes:
+    - Don't do "minor" bugfixes five minutes before you're heading to bed or commas will beat your "just a few more minutes" over your head.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2024-11-16
+  Bugfixes:
+    - Allow Productivity modules in the recipes for gods sake!
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2024-11-15
   Major Features:
