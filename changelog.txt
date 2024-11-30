@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 2024-11-28
+  Bugfixes:
+    - Set recycle setting on recipes to false to prevent chunks from showing up on Fulgora, whoops.
+  Changes:
+    - Made bespoke icons for the trace recipes, to allow them to be set in circuitry.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 2024-11-16
+  Locale:
+    - Locale contribution from eugenikus8 on github for RU, thanks!
+---------------------------------------------------------------------------------------------------
 Version: 1.1.4
 Date: 2024-11-16
   Changes:

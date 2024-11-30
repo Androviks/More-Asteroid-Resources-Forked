@@ -44,6 +44,8 @@ data:extend({
 		subgroup = "space-crushing",
 		category = "crushing",
 		order = "g-a",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "metallic-asteroid-chunk", amount = 3}
@@ -55,11 +57,7 @@ data:extend({
 			{type = "item", name = "tungsten-ore", amount = 1, probability = 0.1}
 		},
 		icon_size = 64,
-        	icons = {
-            		{icon = "__space-age__/graphics/icons/advanced-metallic-asteroid-crushing.png", icon_size = 64, scale = 1},
-            		{icon = "__space-age__/graphics/icons/holmium-ore.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
-            		{icon = "__space-age__/graphics/icons/tungsten-ore.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
-        	},
+		icon = "__More-Asteroid-Resources-Forked__/graphics/icons/trace-metallic.png",
 		enabled = false
 	}
 })
@@ -72,6 +70,8 @@ data:extend({
 		subgroup = "space-crushing",
 		category = "crushing",
 		order = "g-b",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "carbonic-asteroid-chunk", amount = 3}
@@ -83,11 +83,7 @@ data:extend({
 			{type = "item", name = "uranium-ore", amount = 3, probability = 0.3}
 		},
 		icon_size = 64,
-        	icons = {
-            		{icon = "__space-age__/graphics/icons/advanced-carbonic-asteroid-crushing.png", icon_size = 64, scale = 1},
-            		{icon = "__base__/graphics/icons/stone.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
-            		{icon = "__base__/graphics/icons/uranium-ore.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
-        	},
+		icon = "__More-Asteroid-Resources-Forked__/graphics/icons/trace-carbonic.png",
 		enabled = false
 	}
 })
@@ -100,6 +96,8 @@ data:extend({
 		subgroup = "space-crushing",
 		category = "crushing",
 		order = "g-c",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "oxide-asteroid-chunk", amount = 3}
@@ -111,11 +109,7 @@ data:extend({
 			{type = "item", name = "lithium", amount = 3, probability = 0.3}
 		},
 		icon_size = 64,
-        	icons = {
-            		{icon = "__space-age__/graphics/icons/advanced-oxide-asteroid-crushing.png", icon_size = 64, scale = 1},
-            		{icon = "__base__/graphics/icons/stone.png", icon_size = 64, scale = 0.5, shift = {-16, -16}},
-            		{icon = "__space-age__/graphics/icons/lithium.png", icon_size = 64, scale = 0.5, shift = {16, -16}},
-        	},
+		icon = "__More-Asteroid-Resources-Forked__/graphics/icons/trace-oxide.png",
 		enabled = false
 	}
 })
@@ -137,6 +131,8 @@ data:extend({
 		subgroup = "space-promethium-processing",
 		category = "metallurgy",
 		order = "z-a",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "metallic-asteroid-chunk", amount = 2},
@@ -161,6 +157,8 @@ data:extend({
 		subgroup = "space-promethium-processing",
 		category = "oil-processing",
 		order = "z-b",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "carbonic-asteroid-chunk", amount = 2},
@@ -186,6 +184,8 @@ data:extend({
 		subgroup = "space-promethium-processing",
 		category = "cryogenics",
 		order = "z-c",
+		allow_productivity = true,
+		auto_recycle = false,
 		energy_required = 10,
 		ingredients = {
 			{type = "item", name = "oxide-asteroid-chunk", amount = 2},
